@@ -44,6 +44,7 @@ Initialized empty Git repository in C:/Users/vandr/OneDrive/바탕 화면/정리
 t/
 (master) $
 
+#init의 다른 이름이 클론(clone)이다. 즉 git clone하고 init을 새롭게 작성할 필요가 없다.
 ```
 
 * git 저장소로 활용하기 위해서는 위의 명령어를 활용한다.
@@ -55,6 +56,15 @@ t/
 # 1. `add`
 
 > 커밋을 위한 파일 목록(staging area)
+
+``` bash
+$git add . #현재 디렉토리
+$git add a.txt #특정 파일
+$git add a.txt b.txt #여러 파일
+$git add md-images/ #특정 폴더
+```
+
+* add 전 모습
 
 ```bash
 $ touch test.txt

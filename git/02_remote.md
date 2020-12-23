@@ -46,6 +46,24 @@ To https://github.com/vandrager/Project-test.git
 
 
 
+# 4.pull
+
+* 원격 저장소의 변경 사항을 받아옴
+
+``` bash
+$git pull origin master
+```
+
+# 5. clone
+
+* 원격 저장소를 복제함
+
+``` bash
+$git clone ____
+```
+
+
+
 # 업데이트 하려면?
 
 ``` bash
