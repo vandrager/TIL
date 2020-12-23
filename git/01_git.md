@@ -106,17 +106,18 @@ $git log
 commit 901f817cd3ee6834317e85c390eeb4ca966f3b26 (HEAD -> master)
 Author: vandrager <vandrager@naver.com>
 Date:   Tue Dec 22 14:36:15 2020 +0900
-
-    커밋 메시지
 ```
 
 * 추가 옵션
 
 ``` bash
 $git log -1
-git log --oneline
+$git log --oneline
 901f817 (HEAD -> master) 커밋 메시지
 git log --oneline -1
+
+$git log --oneline #한줄로 간단하게 보기
+$git log --oneline -2 #최근 2개만 간단하게 보기
 ```
 
 # 상태 확인
