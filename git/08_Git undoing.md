@@ -35,6 +35,7 @@ nothing to commit, working tree clean
 $ touch 2.txt
 $ git add .
 $ git status
+$ git reset 해도 add . 한거 다 취소가 된다.
 On branch master
 Changes to be committed:
 	# hint!

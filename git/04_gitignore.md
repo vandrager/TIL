@@ -10,6 +10,7 @@
 > data.csv #특정 파일
 > *.png #특정 확장자(png확장자인 모든 것)
 > secret/ #특정 폴더
+> secret/baby/* #특정 폴더 하위 디렉토리에 존재하는 모든 값 ignore
 > !profile.png #모든 png는 빼고, profile.png는 넣고!
 > ```
 
